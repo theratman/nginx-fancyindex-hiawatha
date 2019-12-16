@@ -1,6 +1,7 @@
 # nginx-fancyindex-hiawatha
 Hiawatha theme for nginx's fancyindex plugin 
 
+![](doc/screen-preview.jpg)
 
 ## About
 
