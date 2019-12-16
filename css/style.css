@@ -1,0 +1,128 @@
+body {
+     background-color: #ffffff;
+     font-family: sans-serif;
+     font-size: 12px;
+     padding: 25px 100px;
+}
+ h1 {
+     font-size: 200%;
+     color: #6878e0;
+     text-align: center;
+}
+ h2 {
+     font-size: 150%;
+}
+ h1, h2 {
+     letter-spacing: 5px;
+     max-width: 900px;
+     margin: 15px auto;
+}
+ table {
+     width: 100%;
+     max-width: 900px;
+     margin: 0 auto;
+     border-spacing: 0;
+     box-shadow: 6px 12px 15px 5px #808080;
+     border-radius: 15px;
+}
+ table th, table td {
+     padding: 10px 30px;
+}
+ thead th {
+     background-color: #6878e0;
+     color: #ffffff;
+     letter-spacing: 1px;
+     text-align: left;
+     font-size: 13px;
+     font-weight: 400;
+     width: auto !important;
+}
+ thead th:first-child {
+     border-top-left-radius: 15px;
+}
+ tbody td {
+     border-bottom: 1px solid #e0e0e0;
+}
+ tbody tr:nth-child(even) td {
+     background-color: #f8f8ff;
+}
+ tbody tr:nth-child(odd) td {
+     background-color: #ffffff;
+}
+ tbody tr:hover td {
+     background-color: #ffffe0;
+     cursor: pointer;
+}
+ tbody td a {
+     color: #4080ff;
+}
+ thead th a {
+     color: #ffffff;
+}
+ thead th a:hover {
+     color: yellow;
+}
+ tfoot td {
+     background-color: #ececec;
+}
+ tbody tr:last-child td:last-child {
+     border-bottom-right-radius: 15px;
+}
+ a {
+     text-decoration: none;
+}
+ div.powered {
+     margin-top: 40px;
+     text-align: center;
+     color: #808080;
+}
+ div.powered a {
+     color: #80b0c0;
+}
+ #list tbody a[href$="/"], #list tbody a[href$="&O=D"], #list tbody a[href$="&O=A"] {
+     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABX1BMVEX39/dra2tsbGxtbW1ubm57e3t+fn5/f3+ua1Cua1G2cVO4dFS7eFW9e1a6fVe/f1e7f1i9g1m/hFnBgljDhVnFiFnGiVrHjFrDiF7HjV/IjFrIjFvJjlvKkFzLkVzMk13NlF3PlV3Oll7Pl17Rml/SnV/Pmmbfl2HTnWDUn2DUoGHVoWHWo2TZqGXZqWfRoGrToGvXqW/0rWn0t2z5tWv+uW3+vG7hrXT6zHitra2vr6+wsLCysrLJrZnLtZ/ivYbhvpDXvKrZvqn90oP33IP52oH/1orlxJPjw5nu15z45Y385pn56p3dxavjxqDjyKr/76j7763//aP05rry47z88LD89L3//77MzMzU1NTW1tbd3d399sf/+Mf48cv9+Mz9+c727dL9+dn//9v+/t3l5eXn5+fo6Ojp6en16+T48Ob9+uX//OX//uX+/up9W1D8+PX4+Pj5+fn///j///+gwhWcAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAHdElNRQfVAxgNNRYCF8YoAAAAr0lEQVR42mNgIAwcdDT1fdMQfD/37LxEA7touIBhXEpKSoiajLiYhCNYnVZ8AhQEC1imAgVUwzz1tDVUlORlpcUEbYFqVAJ1s6C6czL5rNIYlH20i5NiwMA/l5c1kkHBSyM5FAI8YnmYIhjkXFXCvSHAPoCbMYJBxkIpyBkCzN24gAKSxoouZqYgYKJuxAHU4iQkKiUmIszPy8PNxZnPFsWQbs3GwgwFLOw2GRh+BQApPielSWe5LQAAAABJRU5ErkJggg==) left center no-repeat;
+     color: #4080ff;
+     padding-left: 25px;
+}
+ tbody a {
+     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAe1BMVEX///8WFhZAQEBLS0ldXV12dnaFhYWgoKCoqKitra27u7u8vLy9vb2+vr6/v7/AwMDBwcHCwsLDw8PExMTFxcXg4ODi4uLj4+Pk5OTl5eXm5ubn5+fo6Ojq6urr6+vs7Ozt7e3u7u7v7+/w8PDx8fH7+/v9/f3+/v4AAADSBF8OAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfVAxgOIR25LXasAAAAgklEQVR42kXQ2xaCIBCFYaLjKJXaAVDQMLXe/wnDYbP615qbb+YGhCCZI8HJD7c8qi8BJq6ZT0ky0H4nJYCIpvfzsN1kGLkQ7oCR1kIYbgmWgPoG8KJhPfG+AvQOXQE+rl2c7gJwbcqeAR2ljAK01lpjtNZFglopVZZF7Mjwfz5/wA+3tg7+aWT54QAAAABJRU5ErkJggg==) left center no-repeat;
+     background-size: contain;
+     color: #4080ff;
+     padding-left: 25px;
+}
+ @media (max-width:767px) {
+     body {
+         padding: 5px 25px;
+    }
+     h1, h2 {
+         letter-spacing: 1px;
+    }
+}
+ @media (min-width:640px) {
+     thead th.timestamp {
+         width: 150px;
+    }
+     thead th:last-child {
+         border-top-right-radius: 15px;
+         width: 100px;
+    }
+     tbody tr:last-child td:first-child {
+         border-bottom-left-radius: 15px;
+    }
+}
+ @media (max-width:639px) {
+     table th, table td {
+         display: block;
+         min-height: 12px;
+         line-height: 20px;
+    }
+     table td:nth-child(2) {
+         padding-left: 55px;
+    }
+     thead th:first-child {
+         border-top-right-radius: 15px;
+    }
+     tbody tr:last-child td:last-child {
+         border-bottom-left-radius: 15px;
+    }
+}
